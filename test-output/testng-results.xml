@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="5" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Entered emailID]]>
+    </line>
+    <line>
+      <![CDATA[Enter password]]>
+    </line>
+    <line>
+      <![CDATA[Clicked Submit button]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-04-09T12:40:57 IST" name="Suite" finished-at="2022-04-09T12:41:40 IST" duration-ms="42720">
+    <groups>
+    </groups>
+    <test started-at="2022-04-09T12:40:57 IST" name="Test" finished-at="2022-04-09T12:41:40 IST" duration-ms="42720">
+      <class name="TestClasses.Test1">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:TestClasses.Test1@6f1de4c7]" started-at="2022-04-09T12:40:57 IST" name="beforeClass" finished-at="2022-04-09T12:41:08 IST" duration-ms="11417" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestClasses.Test1@6f1de4c7]" started-at="2022-04-09T12:41:08 IST" name="beforeMethod" finished-at="2022-04-09T12:41:08 IST" duration-ms="84" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VerifyUserCanLogin()[pri:0, instance:TestClasses.Test1@6f1de4c7]" started-at="2022-04-09T12:41:08 IST" name="VerifyUserCanLogin" finished-at="2022-04-09T12:41:13 IST" duration-ms="4634" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Entered emailID]]>
+            </line>
+            <line>
+              <![CDATA[Enter password]]>
+            </line>
+            <line>
+              <![CDATA[Clicked Submit button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyUserCanLogin -->
+        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:TestClasses.Test1@6f1de4c7]" started-at="2022-04-09T12:41:13 IST" name="aftermethod" finished-at="2022-04-09T12:41:13 IST" duration-ms="336" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyUserCanLogin status=SUCCESS method=Test1.VerifyUserCanLogin()[pri:0, instance:TestClasses.Test1@6f1de4c7] output=Entered emailID]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestClasses.Test1@6f1de4c7]" started-at="2022-04-09T12:41:13 IST" name="beforeMethod" finished-at="2022-04-09T12:41:13 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="z_VerifyUserCanAddAddress(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TestClasses.Test1@6f1de4c7]" started-at="2022-04-09T12:41:13 IST" name="z_VerifyUserCanAddAddress" data-provider="dataSet" finished-at="2022-04-09T12:41:26 IST" duration-ms="12989" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Naruto]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[91523487962]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[412207]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Wagholi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- z_VerifyUserCanAddAddress -->
+        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:TestClasses.Test1@6f1de4c7]" started-at="2022-04-09T12:41:26 IST" name="aftermethod" finished-at="2022-04-09T12:41:26 IST" duration-ms="109" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=z_VerifyUserCanAddAddress status=SUCCESS method=Test1.z_VerifyUserCanAddAddress(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TestClasses.Test1@6f1de4c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestClasses.Test1@6f1de4c7]" started-at="2022-04-09T12:41:26 IST" name="beforeMethod" finished-at="2022-04-09T12:41:26 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="z_VerifyUserCanAddAddress(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TestClasses.Test1@6f1de4c7]" started-at="2022-04-09T12:41:26 IST" name="z_VerifyUserCanAddAddress" data-provider="dataSet" finished-at="2022-04-09T12:41:39 IST" duration-ms="12882" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Luffy]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7865134896]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[412207]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Wagholi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- z_VerifyUserCanAddAddress -->
+        <test-method is-config="true" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:TestClasses.Test1@6f1de4c7]" started-at="2022-04-09T12:41:39 IST" name="aftermethod" finished-at="2022-04-09T12:41:39 IST" duration-ms="110" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=z_VerifyUserCanAddAddress status=SUCCESS method=Test1.z_VerifyUserCanAddAddress(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TestClasses.Test1@6f1de4c7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:TestClasses.Test1@6f1de4c7]" started-at="2022-04-09T12:41:39 IST" name="afterclass" finished-at="2022-04-09T12:41:40 IST" duration-ms="126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- TestClasses.Test1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
