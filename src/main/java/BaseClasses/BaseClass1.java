@@ -13,6 +13,8 @@ public class BaseClass1 {
 		if(a.equals("chrome"))
 		{
 //			WebDriverManager.chromedriver();
+//			WebDriverManager.chromedriver();
+//			WebDriverManager.chromedriver();
 			
 			System.setProperty("webdriver.chrome.driver", "C:\\Users\\amaur\\eclipse-workspace\\FlipkartProject\\src\\main\\resources\\Browsers\\chromedriver.exe");
 			
